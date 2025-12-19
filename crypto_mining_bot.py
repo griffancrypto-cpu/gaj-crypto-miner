@@ -30,7 +30,7 @@ def leaderboard(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(message)
 
 def main():
-    TOKEN = "YOUR_BOT_API_TOKEN"  # Replace with your bot token from BotFather
+    TOKEN = "8260606804:AAHRptWPEcXbW43A6J3XV0qytVrUR5e9RCw"  # Replace with your bot token from BotFather
     updater = Updater(TOKEN)
     
     dispatcher = updater.dispatcher
